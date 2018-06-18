@@ -3,7 +3,8 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                echo 'I ran'
+				build 'Template_Project'
+                echo 'Pipeline project build step'
             }
         }
     }
